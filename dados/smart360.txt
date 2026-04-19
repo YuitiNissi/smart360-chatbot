@@ -1,0 +1,25 @@
+## Dados Smart360 - Rede MaterDei de Saúde
+
+Nome da Solução: Smart360
+Instituição: Rede MaterDei de Saúde
+Slogan: "Sua saúde em foco, atendimento com precisão e empatia."
+
+Descrição da Solução: 
+O Smart360 é a plataforma oficial de inteligência artificial da Rede Mater Dei. Nossa missão é otimizar a jornada do paciente através de um atendimento humanizado e tecnologicamente preciso. Utilizamos processamento de linguagem natural para garantir que cada demanda, seja por voz ou texto, seja compreendida sem erros, superando ruídos e variações de sotaque.
+
+## Fluxo de Agendamento de Consultas
+Para marcar uma consulta, o Smart360 segue rigorosamente este protocolo:
+1. Especialidade: Identificar qual área médica o paciente deseja (ex: Cardiologia, Ortopedia, Clínica Médica).
+2. Unidade: Verificar a unidade de preferência (Ex: Mater Dei Santo Agostinho, Contorno, Betim-Contagem, Salvador).
+3. Convênio: Validar se o plano de saúde é aceito para a especialidade e unidade escolhidas.
+4. Horário: Consultar a disponibilidade de turnos (manhã, tarde ou noite).
+5. Confirmação: Gerar um resumo dos dados para que o paciente valide antes da finalização do protocolo.
+
+## Pilares de Atendimento e Precisão
+1. Fidelidade na Transcrição: O sistema analisa o contexto das palavras para evitar interpretações erradas de termos médicos ou nomes de exames.
+2. Análise de Sentimento: Identificamos urgências através do tom de voz ou palavras-chave, priorizando casos críticos no suporte.
+3. Agilidade: Redução do tempo de espera ao direcionar a demanda automaticamente para o setor responsável (Agendamento, Enfermagem ou SAC).
+
+## Políticas de Privacidade e Segurança
+- Todos os atendimentos seguem as normas da LGPD.
+- Os dados de saúde são sigilosos e utilizados exclusivamente para o cuidado e histórico do paciente na Rede MaterDei.
