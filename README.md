@@ -7,69 +7,68 @@ Nesta sprint, o foco está na definição da arquitetura inicial e no desenho da
 
 A aplicação utiliza modelos de linguagem (LLMs) para garantir alta fidelidade na interpretação de demandas em voz e texto, superando desafios como:
 
-interferências sonoras
-variações linguísticas
-diversidade de sotaques
+- interferências sonoras
+- variações linguísticas
+- diversidade de sotaques
+
 🚀 Funcionalidades (Sprint 2)
-Triagem e Identificação de Intenção
-Análise de sentimento para identificar se o paciente deseja realizar um agendamento ou registrar uma reclamação crítica.
-Personas Dinâmicas
-O chatbot adapta seu comportamento conforme o contexto:
-Especialista em Agendamento
-Mediador de Conflitos
-Assistente Geral
-Correção de Contexto
+
+- Triagem e Identificação de Intenção
+    Análise de sentimento para identificar se o paciente deseja realizar um agendamento ou registrar uma reclamação crítica.
+- Personas Dinâmicas
+    O chatbot adapta seu comportamento conforme o contexto:
+        - Especialista em Agendamento
+        - Mediador de Conflitos
+        - Assistente Geral
+- Correção de Contexto
 Ajuste automático de transcrições para garantir fidelidade ao conteúdo original.
-Otimização de Texto
+- Otimização de Texto
 Remoção de redundâncias para melhorar a clareza e eficiência no processamento.
-Fluxo de Agendamento
-Coleta estruturada de informações como:
-especialidade
-unidade
-convênio
-horário
+- Fluxo de Agendamento
+    Coleta estruturada de informações como:
+        - especialidade
+        - unidade
+        - convênio
+        - horário
 🛠️ Tecnologias Utilizadas
-Python 3.10+ — Desenvolvimento e análise de dados
-Flask — Framework web para prototipação
-Google Gemini API — Inteligência artificial generativa e análise de sentimentos
-Pillow — Manipulação de imagens no chatbot
-Azure (Blob Storage & SQL) — Infraestrutura de dados e pipelines (ETL)
+- Python 3.10+ — Desenvolvimento e análise de dados
+- Flask — Framework web para prototipação
+- Google Gemini API — Inteligência artificial generativa e análise de sentimentos
+    
 🔧 Como Rodar o Projeto Localmente
 1. Clone o repositório
-git clone https://github.com/seu-usuario/smart360-materdei.git
-cd smart360-materdei
+    git clone https://github.com/seu-usuario/smart360-materdei.git
+    cd smart360-materdei
 2. Crie e ative o ambiente virtual
-python -m venv venv
-Windows
-venv\Scripts\activate
-Mac/Linux
-source venv/bin/activate
+    Bash:
+    python -m venv venv
+    Windows:
+    venv\Scripts\activate
+    Mac/Linux:
+    source venv/bin/activate
 3. Instale as dependências
-pip install -r requirements.txt
+    pip install -r requirements.txt
 4. Configure as variáveis de ambiente
-
-Crie um arquivo .env na raiz do projeto:
-
-GEMINI_API_KEY=SUA_CHAVE_AQUI
+    Crie um arquivo .env na raiz do projeto:
+    GEMINI_API_KEY=SUA_CHAVE_AQUI
 5. Execute a aplicação
-python app.py
+    python app.py
+
 📊 Planejamento e Gestão
 
 O projeto segue a metodologia ágil com Kanban, garantindo:
-
-organização das tarefas
-visibilidade do progresso
-entregas contínuas
+- organização das tarefas
+- visibilidade do progresso
+- entregas contínuas
 
 A arquitetura foi pensada para ser escalável, permitindo integração com:
+- planilhas (Excel)
+- sistemas ERP
+- ferramentas de visualização de dados
 
-planilhas (Excel)
-sistemas ERP
-ferramentas de visualização de dados
 🎯 Contexto Acadêmico
 
 Este projeto é um entregável da Sprint 2 — Challenge FIAP & Rede Mater Dei de Saúde, com foco na aplicação prática de:
-
-inteligência artificial
-engenharia de dados
-arquitetura de sistemas
+- inteligência artificial
+- engenharia de dados
+- arquitetura de sistemas
