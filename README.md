@@ -11,7 +11,7 @@ A aplicação utiliza modelos de linguagem (LLMs) para garantir alta fidelidade 
 - variações linguísticas
 - diversidade de sotaques
 
-🚀 Funcionalidades (Sprint 2)
+🚀 Funcionalidades 
 
 - Triagem e Identificação de Intenção
     Análise de sentimento para identificar se o paciente deseja realizar um agendamento ou registrar uma reclamação crítica.
@@ -82,7 +82,7 @@ A arquitetura foi pensada para ser escalável, permitindo integração com:
 
 🎯 Contexto Acadêmico
 
-Este projeto é um entregável da Sprint 2 — Challenge FIAP & Rede Mater Dei de Saúde, com foco na aplicação prática de:
+Este projeto é um entregável do Challenge FIAP & Rede Mater Dei de Saúde, com foco na aplicação prática de:
 - inteligência artificial
 - engenharia de dados
 - arquitetura de sistemas
