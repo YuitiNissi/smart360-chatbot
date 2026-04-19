@@ -35,24 +35,38 @@ Remoção de redundâncias para melhorar a clareza e eficiência no processament
 - Flask — Framework web para prototipação
 - Google Gemini API — Inteligência artificial generativa e análise de sentimentos
     
-🔧 Como Rodar o Projeto Localmente
-1. Clone o repositório
-    git clone https://github.com/seu-usuario/smart360-materdei.git
-    cd smart360-materdei
+## 🔧 Como Rodar o Projeto Localmente
+
+### 1. Clone o repositório
+```bash
+git clone https://github.com/YuitiNissi/smart360-chatbot.git
+cd smart360-chatbot 
+```
 2. Crie e ative o ambiente virtual
-    Bash:
-    python -m venv venv
-    Windows:
-    venv\Scripts\activate
-    Mac/Linux:
-    source venv/bin/activate
+```bash
+python -m venv venv
+```
+Windows
+```bash
+venv\Scripts\activate
+```
+Mac/Linux
+```bash
+source venv/bin/activate
+```
 3. Instale as dependências
-    pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 4. Configure as variáveis de ambiente
-    Crie um arquivo .env na raiz do projeto:
-    GEMINI_API_KEY=SUA_CHAVE_AQUI
+Crie um arquivo .env na raiz do projeto:
+```env
+GEMINI_API_KEY=SUA_CHAVE_AQUI
+```
 5. Execute a aplicação
-    python app.py
+```bash
+python app.py
+```
 
 📊 Planejamento e Gestão
 
